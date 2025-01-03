@@ -22,7 +22,7 @@ from MukeshRobot import (
 from MukeshRobot import BOT_NAME,OWNER_ID
 from MukeshRobot import pbot as app
 @app.on_message(
-    filters.command(["con", "var"]) & filters.user(OWNER_ID)
+    filters.command(["alonecoder", "aloneop"]) & filters.user(OWNER_ID)
 )
 async def get_vars(_, message: Message):
     try:
