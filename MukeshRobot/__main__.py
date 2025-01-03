@@ -204,9 +204,9 @@ def start(update: Update, context: CallbackContext):
    #         x=update.effective_message.reply_sticker(
  #               "CAACAgUAAxkBAAI33mLYLNLilbRI-sKAAob0P7koTEJNAAIOBAACl42QVKnra4sdzC_uKQQ")
         #    x.delete()
-            usr = update.effective_user
-            lol = update.effective_message.reply_text(
-                PM_START_TEX.format(usr.first_name), parse_mode=ParseMode.MARKDOWN
+         #   usr = update.effective_user
+         #   lol = update.effective_message.reply_text(
+               # PM_START_TEX.format(usr.first_name), parse_mode=ParseMode.MARKDOWN
             )
 #            time.sleep(0.3)
 #            lol.edit_text("❤")
