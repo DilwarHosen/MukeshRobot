@@ -18,11 +18,11 @@ class Config(object):
 
     
     BL_CHATS = [] 
-    DRAGONS = []
-    DEV_USERS = []  
-    DEMONS = [] 
-    TIGERS = []  
-    WOLVES = [] 
+    DRAGONS = "7552579717"
+    DEV_USERS = "7552579717"
+    DEMONS = "7552579717" 
+    TIGERS = "7552579717"
+    WOLVES = "7552579717" 
 
     ALLOW_CHATS = True
     ALLOW_EXCL = True
